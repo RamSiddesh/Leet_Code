@@ -14,7 +14,7 @@
 14                dup = ptr2.val
 15                while ptr2 and ptr2.val == dup:
 16                    ptr2 = ptr2.next
-17                    prev.next = ptr2
+17                prev.next = ptr2
 18            else:
 19                prev = ptr2
 20                ptr2 = ptr2.next
